@@ -11,7 +11,6 @@ LOCAL_SRC_FILES  := black_white.c \
 	cols.c \
 	compl.c \
 	contain.c \
-	copyright.h \
 	cpu_time.c \
 	cubestr.c \
 	cvrin.c \
@@ -20,7 +19,7 @@ LOCAL_SRC_FILES  := black_white.c \
 	cvrout.c \
 	dominate.c \
 	equiv.c \
-	espresso.c espresso.h \
+	espresso.c \
 	essen.c \
 	essentiality.c \
 	exact.c \
@@ -31,15 +30,13 @@ LOCAL_SRC_FILES  := black_white.c \
 	hack.c \
 	indep.c \
 	irred.c \
-	main.c main.h \
+	main.c \
 	map.c \
 	matrix.c \
-	mincov.c mincov.h \
-	mincov_int.h \
+	mincov.c \
 	opo.c \
 	pair.c \
 	part.c \
-	port.h \
 	primes.c \
 	prtime.c \
 	reduce.c \
@@ -50,13 +47,10 @@ LOCAL_SRC_FILES  := black_white.c \
 	sigma.c \
 	signature.c \
 	signature_exact.c \
-	signature.h \
 	sminterf.c \
 	solution.c \
-	sparse.c sparse.h \
-	sparse_int.h \
+	sparse.c \
 	unate.c \
-	utility.h \
 	util_signature.c \
 	verify.c
 LOCAL_LDLIBS    := -llog
