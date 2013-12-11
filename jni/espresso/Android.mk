@@ -53,6 +53,6 @@ LOCAL_SRC_FILES  := black_white.c \
 	unate.c \
 	util_signature.c \
 	verify.c
-LOCAL_LDLIBS    := -llog
+LOCAL_LDLIBS    :=
 
 include $(BUILD_EXECUTABLE)
